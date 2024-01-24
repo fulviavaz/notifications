@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Notification Button -->
+        <button class="bell-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell" width="28" height="28"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+            </svg>
+        </button>
+
+        <div class="notifications-wrapper">
+            <div class="heading-wrapper">
+                <h1>Notifications</h1>
+                <button class="mark-as-read-btn">Mark all as read</button>
+            </div>
+            <!-- All notifications go in here -->
+            <ul class="notifications-list">
+                <li class="notification-item">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2ZpbGUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D"
+                            alt="user profile picture">
+                    </div>
+                    <div>
+                        <p><strong>Paul Waga</strong> shared the file <strong>Android UI Kit</strong> with you.</p>
+                        <small class="notification-time">An hour ago</small>
+                        <div class="notification-item-btns">
+                            <button class="decline-btn">Decline</button>
+                            <button class="accept-btn">Accept</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="notification-item">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1524290266577-e90173d9072a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHByb2ZpbGUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D"
+                            alt="user profile picture">
+                    </div>
+                    <div>
+                        <p><strong>Denise Selover</strong> made you an editor in the team <strong>Power</strong>.</p>
+                        <small class="notification-time">Yesterday</small>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script href="./js/app.js"></script>
+
+</html>
