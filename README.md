@@ -39,4 +39,4 @@ If you have any questions or suggestions, please contact me via
 from email: [fulviavaz.dev@gmail.com](mailto:fulviavaz.dev@gmail.com).
 
 ## Links
-Deploy: https://link-do-deploy.com.br
+Deploy: https://notifications-psi.vercel.app/
